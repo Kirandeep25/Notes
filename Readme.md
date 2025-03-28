@@ -2,13 +2,6 @@
 
 A modern, feature-packed collaborative notebook application that works on local networks. CollabNote allows multiple users to work on the same notebook simultaneously, with real-time updates and collaboration features.
 
-<div style="display: flex; justify-content: space-between; margin: 20px 0;">
-  <img src="Collabnote User 1.png" alt="CollabNote User 1" style="width: 48%; max-width: 500px;">
-  <img src="Collabnote User 2.png" alt="CollabNote User 2" style="width: 48%; max-width: 500px;">
-</div>
-
-*Two users collaborating on the same notebook in real-time*
-
 ## Features
 
 - Real-time collaborative editing
@@ -25,28 +18,7 @@ A modern, feature-packed collaborative notebook application that works on local 
 - **Backend**: Node.js, Express, Socket.io
 - **Sandboxed Code Execution**: VM2
 - **Styling**: CSS3
-
-## Project Structure
-
-```
-collabnote/
-├── client/                    # React frontend
-│   ├── public/
-│   └── src/
-│       ├── components/        # React components
-│       │   ├── Login.js       # Login component
-│       │   ├── Navbar.js      # Navigation component
-│       │   ├── Notebook.js    # Notebook component
-│       │   └── Settings.js    # Settings component
-│       ├── App.js             # Main application component
-│       ├── App.css            # Main application styles
-│       └── index.js           # React entry point
-├── data/                      # Data storage directory
-│   └── notebooks/             # JSON notebook files
-├── server.js                  # Express server and Socket.io logic
-└── package.json               # Project dependencies
-```
-
+- 
 ## Installation
 
 1. Clone the repository:
